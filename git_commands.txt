@@ -1,0 +1,10 @@
+git --version
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git  (ssh version)
+git clone https://github.com/USER-NAME/REPOSITORY-NAME.git    (https version)
+cd repo_name
+git status
+git log
+git add file_name
+git add .
+git commit -m "Message"
+git puch origin main (or simply "git push" in this case)
