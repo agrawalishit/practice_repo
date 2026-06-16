@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Admission Form</h2>
+
+            <h3>Basic Details</h3>
+
+            <form action="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div>
+                    <label for="mobile-number">Phone Number</label>
+                    <input type="number" min="6000000000" max="9999999999" id="mobile-number"
+                        placeholder="Enter your phone number" required>
+                </div>
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="number" id="age" placeholder="Enter you age" required>
+                </div>
+
+                <div>
+                    Gender
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div>
+                    <label for="category">Category</label>
+                    <select name="categories" id="category">
+                        <option value="gen">General</option>
+                        <option value="obc">OBC</option>
+                        <option value="sc">SC</option>
+                        <option value="st">ST</option>
+                    </select>
+                </div>
+
+                <h3>Documents</h3>
+                <div>
+                    <input type="checkbox" id="aadhaar">
+                    <label for="aadhaar">Aadhaar</label>
+                    <br>
+
+                    <input type="checkbox" id="10thmarksheet">
+                    <label for="10thmarksheet">10th Marksheet</label>
+                    <br>
+
+                    <input type="checkbox" id="12thmarksheet">
+                    <label for="12thmarksheet">12th Marksheet</label>
+                </div>
+
+                <h3>Course Preference</h3>
+                <div>
+                    <label for="course-preference">Course</label>
+                    <select name="coursepref" id="course-preference">
+                        <option value="cse">CSE</option>
+                        <option value="it">IT</option>
+                        <option value="ece">ECE</option>
+                    </select>
+                </div>
+
+                <h3>Why do you want admission in our college?</h3>
+                <div>
+                    <textarea name="reason" id="reason-for-admission" placeholder="Enter your reason here" rows="5"
+                        cols="100"></textarea>
+                </div>
+            </form>
+</body>
+</html>

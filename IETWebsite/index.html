@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Portal</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home-page.html">Home</a></li>
+                <li><a href="courses-page.html">Courses</a></li>
+                <li><a href="admission-process-page.html">Admission Process</a></li>
+                <li><a href="admission-form-page.html">Admission Form</a></li>
+                <li><a href="hostels-page.html">Hostels</a></li>
+                <li><a href="media-page.html">Media</a></li>
+                <li><a href="faq-page.html">FAQ</a></li>
+                <li><a href="contact-page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="home-page">
+            <h1>IET Lucknow</h1>
+
+            <img src="IET LOGO.png" alt="logo" height="100">
+
+            <h2>About:</h2>
+            <p>Institute of Engineering and Technology, Lucknow (popularly known as the-“Engineering College” in
+                Lucknow) is
+                one of the premier and top ranked institute among all technical institutions associated/affiliated to
+                Dr. A.
+                P. J. Abdul Kalam Technical University, Lucknow. IET was established by the government of Uttar Pradesh
+                in
+                1984 as a society governed Institute. The Institute is financed by Government of Uttar Pradesh and is
+                being
+                administered by the Executive Council of AKTU.
+            </p>
+
+            <p>
+                The institute has hostel facilities for boys and girls, committees consisting of elected student
+                representatives manage them. All the hostels are located in the campus.
+            </p>
+
+            <p>
+                The institute is fully residential. The institute was formerly affiliated (1984-1999) to The University
+                of
+                Lucknow, currently An Autonomous Institute and recognised by AICTE. The institute is a constituent
+                college
+                of Dr. A.P.J. Abdul Kalam Technical University.
+            </p>
+
+        </section>
+
+        <br>
+
+        <section id="courses-page">
+            <h2>Courses:</h2>
+            <table border="2">
+                <caption><b>Course Table</b></caption>
+
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Seats</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Course</td>
+                        <td>4 Years</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>IT</td>
+                        <td>4 Years</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>ECE</td>
+                        <td>4 Years</td>
+                        <td>90</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <br>
+
+        <section id="admission-process-page">
+            <h2>Admission Process:</h2>
+            <ol>
+                <li>Registration</li>
+                <li>Document Upload</li>
+                <li>verification</li>
+                <li>Fee payment</li>
+                <li>Admission Confirmed</li>
+            </ol>
+        </section>
+
+        <br>
+
+        <section id="admissionform-page">
+            <h2>Admission Form</h2>
+
+            <h3>Basic Details</h3>
+
+            <form action="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div>
+                    <label for="mobile-number">Phone Number</label>
+                    <input type="number" min="6000000000" max="9999999999" id="mobile-number"
+                        placeholder="Enter your phone number" required>
+                </div>
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="number" id="age" placeholder="Enter you age" required>
+                </div>
+
+                <div>
+                    Gender
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div>
+                    <label for="category">Category</label>
+                    <select name="categories" id="category">
+                        <option value="gen">General</option>
+                        <option value="obc">OBC</option>
+                        <option value="sc">SC</option>
+                        <option value="st">ST</option>
+                    </select>
+                </div>
+
+                <h3>Documents</h3>
+                <div>
+                    <input type="checkbox" id="aadhaar">
+                    <label for="aadhaar">Aadhaar</label>
+                    <br>
+
+                    <input type="checkbox" id="10thmarksheet">
+                    <label for="10thmarksheet">10th Marksheet</label>
+                    <br>
+
+                    <input type="checkbox" id="12thmarksheet">
+                    <label for="12thmarksheet">12th Marksheet</label>
+                </div>
+
+                <h3>Course Preference</h3>
+                <div>
+                    <label for="course-preference">Course</label>
+                    <select name="coursepref" id="course-preference">
+                        <option value="cse">CSE</option>
+                        <option value="it">IT</option>
+                        <option value="ece">ECE</option>
+                    </select>
+                </div>
+
+                <h3>Why do you want admission in our college?</h3>
+                <div>
+                    <textarea name="reason" id="reason-for-admission" placeholder="Enter your reason here" rows="5"
+                        cols="100"></textarea>
+                </div>
+            </form>
+        </section>
+
+        <br>
+
+        <section id="hostel-page">
+            <h2>Hostel Information:</h2>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Hostel</th>
+                        <th>AC</th>
+                        <th>Non AC</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Boys</td>
+                        <td>Ramanujan Hostel</td>
+                        <td>100</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Aryabhatt Hostel</td>
+                        <td>70</td>
+                        <td>120</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Girls</td>
+                        <td>Sarojini Bhawan</td>
+                        <td>150</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Apala Bhawan</td>
+                        <td>60</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+
+        <section id="media-page">
+            <h2>Media:</h2>
+
+            <h3>Campus Tour Video</h3>
+            <video src="campus_tour.mp4" controls>video</video>
+
+            <h3>Director Sir</h3>
+            <img src="director_sir.png" alt="photo">
+            <br>
+            <label for="director-sir-photo">Dr. Vineet Kansal</label>
+        </section>
+
+        <br>
+
+        <section id="faqs-page">
+            <h2>FAQs:</h2>
+
+            <details>
+                <summary>What is the last date to apply for admission?</summary>
+                <p>The last date for submitting the admission form is 31st July 2026.</p>
+            </details>
+
+            <details>
+                <summary>What documents are required during admission?</summary>
+                <p>You need your Aadhaar Card, 10th Marksheet, 12th Marksheet, passport-size photographs, and transfer
+                    certificate.</p>
+            </details>
+
+            <details>
+                <summary>Is hostel accommodation available for first-year students?</summary>
+                <p>Yes, hostel facilities are available for both boys and girls on a first-come, first-served basis.</p>
+            </details>
+
+            <details>
+                <summary>Can I apply for more than one course?</summary>
+                <p>Yes, you can select multiple course preferences during the application process.</p>
+            </details>
+
+            <details>
+                <summary>How will I know if my admission is confirmed?</summary>
+                <p>You will receive a confirmation email and SMS after successful document verification and fee payment.
+                </p>
+            </details>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Contact:</h2>
+        <p><b>Email: </b>ietlko@ietlucknow.ac.in</p>
+        <p><b>Contact Number: </b>9539425624</p>
+    </footer>
+</body>
+
+</html>
